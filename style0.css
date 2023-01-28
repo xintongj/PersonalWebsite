@@ -1,0 +1,31 @@
+/*element selector*/
+p {
+	color: red;
+}
+h3 {
+	color: green;
+}
+/*class selector*/
+.about-list-item {
+	font-style: italic;
+}
+/*id selector*/
+#my-name{
+	color: blue;
+}
+/*mobile responsiveness*/
+.grid-table {
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-template-columns: auto auto auto;
+}
+
+@media (max-width: 600px){
+		.grid-table {
+		grid-template-rows: auto ;
+		grid-template-columns: auto auto auto auto auto auto;
+	}
+}
+
+/* justify and text-align diff: justify as in left justify, text align aligns the center*/
+
